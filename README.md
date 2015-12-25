@@ -48,7 +48,7 @@ This Dockerfile should provide a good base image for development work - as an ex
 and run with `docker build -t <username>/yeoman-dev .`; `docker run -P -d <username>/yeoman-dev`
 
 
-In application source, put in Gruntfile.js hostname:0.0.0.0 for expose port 9000 on the host foy any IP:
+In application source, put in Gruntfile.js hostname:0.0.0.0 for expose port 9000 on the host for any IP:
 
     connect: {
       options: {
